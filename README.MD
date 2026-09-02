@@ -36,7 +36,7 @@ tp-productos-api/
 ├── .gitignore                    # Reglas de exclusión para Git (venv, __pycache__)
 ├── README.md                     # Documentación del proyecto
 └── requirements.txt              # Dependencias del proyecto
-
+```
 
 
 
@@ -66,7 +66,6 @@ tp-productos-api/
 
 ## Pruebas en Swagger UI
 
-Reemplazar cada línea por la captura correspondiente (arrastrar la imagen acá en GitHub).
 
 1. Crear un producto válido → 201
 
@@ -74,7 +73,7 @@ Reemplazar cada línea por la captura correspondiente (arrastrar la imagen acá 
 
 2. Crear con categoria_id: 999 (inexistente) → 400
 
-   ![inexistente](capturas/codigo201.png)
+   ![inexistente](capturas/codigo400.png)
 
 3. Crear con precio: -50 → 422 (validación Pydantic)
 
